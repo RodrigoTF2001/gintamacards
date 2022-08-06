@@ -1,0 +1,98 @@
+.containerMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 60px;
+}
+
+ul{
+    padding-top: 1.8rem;
+    background-color: red;
+    width: 25rem;
+    height: 41rem;
+    flex-direction: column;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 300ms ease-in-out;
+}
+
+h3,h4{
+    flex-direction: row;
+}
+
+
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    background-color: transparent;
+    border-radius: 5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.arrow.next{
+    transform: rotateY(180deg);
+}
+
+.card{
+    opacity:0;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    pad: 1.2rem;
+    gap: 1.5rem;
+    
+}
+
+.card.select{
+    opacity: 1;
+    z-index: 1;
+}
+
+.imgcard{
+    width: 25rem;
+    height: 25rem;
+}
+
+h3{
+    padding-top: 1.2rem;
+    padding-bottom: 0.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.atributes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+h4{
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    height: 5.5rem;
+    width: 5.5rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+.title{
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:rgb(51, 51, 51) 0px 0px 0px 3px ;
+    border-radius: 0.4rem;
+    height: 1.8rem;
+    width: 23rem;
+}
