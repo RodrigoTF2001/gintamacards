@@ -8,6 +8,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@mantine/carousel": "^5.1.1",
+    "@mantine/core": "^5.1.1",
+    "@mantine/hooks": "^5.1.1",
+    "embla-carousel-react": "^7.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Osaka;
+    src: url('../../osaka-re.ttf') format('truetype');
+}
+
+.topVP{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 0.2rem;
+    padding-left: 0.7rem;
+    font-size: 2rem;
+    font-family: Osaka, sans-serif;
+    background-color: hsla(221, 80%, 50%, 0.917);
+}
+
+.topVP img{
+    width: 5rem;
+    height: 5rem;
+}

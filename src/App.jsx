@@ -1,15 +1,18 @@
 import React from 'react'
-import './styles/App.css'
-import Header from './components/Header'
-import MainVP from './components/MainVP'
+import './components/styles/app.css'
+import { MantineProvider } from '@mantine/core';
+import Header from './components/JSX/Header'
+import MainVP from './components/JSX/MainVP'
+import Footer from './components/JSX/Footer'
 
 function App() {
 
   return (
-    <div>
-      <Header />
-      <MainVP />
-    </div>
+  <MantineProvider withGlobalStyles withNormalizeCSS>
+    <Header />
+    <MainVP />
+    <Footer />
+  </MantineProvider>
   )
 }
 
